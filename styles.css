@@ -1,0 +1,76 @@
+/****************RESETS*****************/
+
+html {
+   box-sizing: border-box;
+   color: #444;
+   font: 12pt 'Open Sans';
+   font-weight: 300;
+}
+
+*, *::before, *::after {
+   box-sizing: inherit;
+   color: inherit;
+}
+
+/*****************DEFAULTS*******************/
+
+ body {
+    background-color: #7cb540;
+ }
+
+button {
+    border: 1px solid transparent;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    outline: none;
+}
+
+ 
+ul {
+    background-color: #A3CF47;
+    border: 1px solid #7cb540;
+    border-radius: 10px;
+}
+
+h3 {
+    color: #e1e1e1;
+    font-family: Lobster;
+}
+
+h2, p {
+    
+    border: 1.7px solid #e1e1e1;
+    border-radius: 10px;
+    padding: 5px;
+    background: linear-gradient(to bottom, #c5f3fe, #A3CF47);
+}
+
+/*****************LAYOUT*******************/
+.container {
+    padding: 10px;
+}
+
+.primary {
+    background: linear-gradient(to bottom, #c5f3fe, #A3CF47);
+      
+}
+
+
+.secondary ul{
+    background: linear-gradient(to bottom, #c5f3fe, #A3CF47);
+}
+
+
+
+/*****************COMPONENTS*******************/
+   
+
+.user {
+    border: 1.5px solid #3399FF;
+    font-weight: bold;
+}
+
+.perm_id {
+    border: 1.5px solid #6a9102;
+}

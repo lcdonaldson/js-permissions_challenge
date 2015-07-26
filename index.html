@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Challenge</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Lobster|Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.js"></script>
+    
+
+</head>
+<body>
+    <div class="container">
+        <main>
+            <button class="user">Get Users</button>
+                <div class="pageOne">
+                    <h2>
+                        Welcome to SPUD
+                    </h2>
+                    <p>
+                        SPUD or the Single Page User Demo is simply an example of an ajax requests to a JSON database. 
+                        This is mostly to show the tools that I have acquired in seven weeks. Oh, and some pretty sweet CSS too!   
+                    </p>
+                </div>
+                <ul class="primary">
+                   
+                </ul>
+                <div class="pageTwo">      
+                    <div class="secondary">
+                        <h3></h3>
+                        <ul>
+                        
+                        </ul>
+                    </div>
+                </div> 
+        </main>  
+    </div>
+        <script id="user-template" type="text/x-handlebars-template">
+            
+                <li data-id="{{user.id}}" data-name="{{user.name}}"><span class="nameid"> {{user.name}} </span><button class="perm_id"> Get Permissions</button></li>
+            
+        </script>
+    <script src="main.js"></script>
+</body>
+</html>
