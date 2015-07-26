@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/lcdonaldson/permissions-challenge#readme",
   "devDependencies": {
-    "hapi": "^8.8.0"
+    
   }
 }
