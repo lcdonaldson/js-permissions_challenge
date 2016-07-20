@@ -15,7 +15,7 @@ html {
 /*****************DEFAULTS*******************/
 
  body {
-    background-color: #7cb540;
+    background-color: #7CB540;
  }
 
 button {
@@ -29,21 +29,21 @@ button {
  
 ul {
     background-color: #A3CF47;
-    border: 1px solid #7cb540;
+    border: 1px solid #7CB540;
     border-radius: 10px;
 }
 
 h3 {
-    color: #e1e1e1;
+    color: #E1E1E1;
     font-family: Lobster;
 }
 
 h2, p {
     
-    border: 1.7px solid #e1e1e1;
+    border: 1.7px solid #E1E1E1;
     border-radius: 10px;
     padding: 5px;
-    background: linear-gradient(to bottom, #c5f3fe, #A3CF47);
+    background: linear-gradient(to bottom, #C5F3FE, #A3CF47);
 }
 
 /*****************LAYOUT*******************/
@@ -52,13 +52,13 @@ h2, p {
 }
 
 .primary {
-    background: linear-gradient(to bottom, #c5f3fe, #A3CF47);
+    background: linear-gradient(to bottom, #C5F3FE, #A3CF47);
       
 }
 
 
 .secondary ul{
-    background: linear-gradient(to bottom, #c5f3fe, #A3CF47);
+    background: linear-gradient(to bottom, #C5F3FE, #A3CF47);
 }
 
 
@@ -72,5 +72,5 @@ h2, p {
 }
 
 .perm_id {
-    border: 1.5px solid #6a9102;
+    border: 1.5px solid #6A9102;
 }
