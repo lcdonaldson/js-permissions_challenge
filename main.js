@@ -1,7 +1,5 @@
-
 var source = $("#user-template").html();
 var template = Handlebars.compile(source);
-
 
 
 $(function () {
@@ -74,30 +72,6 @@ $(function () {
     })
 
 })
-     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         // $.get(Users) 
         //     .done(function (users) {
         //         $.get(Permissions)
@@ -114,6 +88,5 @@ $(function () {
     
         //     });
      
-
 
         // $('main').append('<li> Brad <button class="permissions">Get Permissions</button></li>')
